@@ -13,3 +13,6 @@ This tutorial shows how to use [ZeroMQ](http://zeromq.org/) inside ros for publi
 ## Steps to run
 1. Invoke the publisher by using following command `rosrun ros_zeromq_tutorial talker_zmq`
 1. The published data can be seen by using following command `rosrun ros_zeromq_tutorial listener_zmq`
+
+## Issues (or Error Reporting)
+Please check [here](https://github.com/ravijo/ros_zeromq_tutorial/issues) and create issues accordingly.
