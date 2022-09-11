@@ -1,3 +1,6 @@
+# ignore vscode config files
+.vscode/
+
 # Prerequisites
 *.d
 
