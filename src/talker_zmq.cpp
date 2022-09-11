@@ -19,7 +19,6 @@ int main(int argc, char** argv) {
   zmq::socket_t publisher(context, ZMQ_PUB);
   publisher.bind("tcp://*:6666");
 
-  int count = 0;
   while (ros::ok()) {
     std::stringstream msg_str_stream;
     msg_str_stream << "hello_world_" << ros::Time::now();
@@ -31,7 +30,6 @@ int main(int argc, char** argv) {
     ROS_INFO_STREAM(msg_str);
     publisher.send(message);
     loop_rate.sleep();
-    count++;
   }
   // Clean up your socket and context here
   publisher.close();
