@@ -2,11 +2,13 @@
 <package format="2">
   <name>ros_zeromq_tutorial</name>
   <version>0.0.0</version>
-  <description>The ros_zeromq_tutorial package</description>
-  <maintainer email="ravi@todo.todo">ravi</maintainer>
-  <license>MIT</license>
+  <description>Python version of the ros_zeromq_tutorial package</description>
+  <maintainer email="tunchunairarko@gmail.com">Md Rakin Sarder</maintainer>
+  <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>rospy</buildtool_depend>
+  <buildtool_depend>std_msgs</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
   <export>
   </export>
 </package>

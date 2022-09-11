@@ -1,5 +1,5 @@
-# ros_zeromq_tutorial
-ZeroMQ tutorial for ROS
+# Ros ZeroMQ Tutorial - Python version
+This is the python version of the ZeroMQ tutorial for ROS by @ravjio
 
 This tutorial shows how to use [ZeroMQ](http://zeromq.org/) inside ros for publishing and subscribing messages.
 
