@@ -15,7 +15,7 @@ This tutorial shows how to use [ZeroMQ](http://zeromq.org) with ROS for publishi
 
 
 ## Compilation
-1. Make sure to download compelte repository. Use `git clone` or download zip as per convenience.
+1. Make sure to download complete repository. Use `git clone` or download zip as per convenience.
 1. Invoke catkin tool inside ros workspace i.e., `catkin_make`
 
 
