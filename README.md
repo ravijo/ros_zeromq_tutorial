@@ -1,4 +1,4 @@
-# Ros ZeroMQ Tutorial
+# ROS ZeroMQ Tutorial
 
 This tutorial shows how to use [ZeroMQ](http://zeromq.org) with ROS for publishing and subscribing to messages. The following two languages are supported:
 
